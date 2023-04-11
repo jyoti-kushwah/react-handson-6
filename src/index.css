@@ -1,13 +1,46 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-attachment: fixed;
+  background-image: linear-gradient(rgb(107, 202, 240) ,rgb(243, 159, 173) ,rgb(194, 189, 189))
 }
+ 
+.con{
+  display: flex;
+  justify-content: space-between;
+  font-size: xx-large;
+  color: aliceblue;
+  background-image: linear-gradient(rgb(0, 238, 255),white);
+  height: 50px;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+/* .table{
+  width: 100px;
+  height: 50%;
+} */
+table{
+  border-collapse: collapse;
+  width: 100%;
+  height: 500px;
+}
+table,td,th{
+  font-size: xx-large;
+  color:crimson;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 2px solid rgb(49, 31, 3);
+  background-image: linear-gradient(45deg,rgb(107, 202, 240) ,rgb(238, 221, 224));
+}
+.stu{
+  font-family: cursive;
+  font-size: xx-large;
+}
+.Add{
+  position: absolute;
+  left: 80%;
+  top:12%;
+  border-radius: 25px;
+  border: 2px solid;
+  background-color: rgb(240, 169, 119);
+  font-size: medium;
+  width: 180px;
+  height: 50px;
 }
