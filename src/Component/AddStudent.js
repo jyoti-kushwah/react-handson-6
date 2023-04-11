@@ -1,6 +1,6 @@
 import React,{useContext} from 'react'
 import ContextData from './ContextAPI'
-import { Navigate, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import Nav from './Nav'
 
 const AddStudent = () => {

@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { Navigate, useLocation, useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import ContextData from './ContextAPI'
 import Nav from './Nav'
 
